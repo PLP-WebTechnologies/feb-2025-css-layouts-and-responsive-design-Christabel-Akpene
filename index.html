@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancake</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a384f42620.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-container">
+                <h1>Pancake</h1>
+                <i class="fa-solid fa-bars open" id="open"></i>
+            </div>
+           
+
+            <nav class="nav">
+                <ul>
+                    <i class="fa-solid fa-xmark close" id="close"></i>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#recipe">RECIPE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <div class="images">
+                <div class="img-wrapper">
+                    <img src="images/pancake.jpg" alt="pancake">
+
+                </div>
+                <div class="img-wrapper">
+                    <img src="images/pancake2.jpg" alt="pancake">
+
+                </div>
+                <div class="img-wrapper">
+                    <img src="images/pancake3.jpg" alt="pancake">
+
+                </div>
+            </div>
+            <p>Make your own special pancake that tastes as wonderful as your dream.</p>
+
+        </div>
+
+        <div class="recipe" id="recipe">
+            <div class="table-information">
+                <div class="info">
+                    <p>Prep Time: </p>   
+                    <p>6 mins</p>                 
+                </div>
+                <div class="info">
+                    <p>Cook Time: </p>   
+                    <p>6 mins</p>                 
+                </div>
+                <div class="info">
+                    <p>Total Time: </p>   
+                    <p>6 mins</p>                 
+                </div>
+                <div class="info">
+                    <p>Servings: </p>   
+                    <p>5 </p>                 
+                </div>
+
+              
+            </div>
+            <div class="recipe-info">
+                <h2>How to make Pancakes</h2>
+            
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>Flour</li>
+                    <li>Milk</li>
+                    <li>Eggs</li>
+                    <li>Butter</li>
+                    <li>A pinch of salt</li>
+                    <li>Vanilla essence*</li>
+                </ul>
+
+                <h3>Recipe</h3>
+                <ol>
+                    <li>In a large bowl, whisk together the flour, sugar, baking powder, and salt.</li>
+                    <li>In a separate bowl, whisk together the egg, milk, melted butter, and vanilla extract if using.</li>
+                    <li>Pour the wet ingredients into the dry ingredients and stir until just combined (the batter may be slightly lumpy).</li>
+                    <li>Heat a non-stick pan over medium heat. Pour 1/4 cup of batter onto the pan for each pancake.
+                    </li>
+                    <li>Cook until bubbles form on the surface, then flip and cook until golden brown.</li>
+                    <li>Serve warm with syrup or toppings of your choice!
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="contact" id="contact">
+            <h3>Contact Us</h3>
+            <p>Thinking of getting more recipes, contact us.</p>
+            <form>
+               <div class="element">
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+               </div>
+               <div class="element">
+                <label for="email">Email: </label>
+                <input type="text">
+               </div>
+                <div class="element message-element">
+                    <label for="message">Message: </label>
+                    <textarea name="" id="message" cols="35" rows="4"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
